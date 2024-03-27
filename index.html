@@ -13,13 +13,18 @@
       max-width: 800px;
     }
 
-    .pub-link-list {
+    .pub-link-list, .pub-award {
       white-space: nowrap;
     }
 
     .pub-link-list::before {
       font-family: 'bootstrap-icons' !important;
       content: '\f470';
+    }
+
+    .pub-award::before {
+      font-family: 'bootstrap-icons' !important;
+      content: '\f5e7';
     }
     </style>
   </head>
@@ -44,13 +49,13 @@
           </div>
 
           <div class="mb-2" style="text-align: justify;">
-          I am a 3rd-year Ph.D. student in the Networked Systems program at UC Irvine.
+          I am a 4<sup>th</sup>-year Ph.D. candidate in the Networked Systems program at UC Irvine.
           My advisor is <a href="https://athinagroup.eng.uci.edu/athina/">Prof. Athina Markopoulou</a>.
           I am a member of the <a href="https://athinagroup.eng.uci.edu/">UCI Networking Group</a> and <a href="https://properdata.eng.uci.edu/">ProperData Project</a>.
           </div>
 
           <div class="mb-2" style="text-align: justify;">
-          My research is about auditing data collection practices of applications across various ecosystems (e.g. mobile, VR and web),
+          My research is about auditing data collection practices of applications across various ecosystems (e.g., web, mobile and VR),
           with a focus on analyzing privacy policies at scale using natural language processing (NLP) techniques.
           </div>
 		    </div>
@@ -95,11 +100,26 @@
           <h2>Publications</h2>
           <ol>
             <li>
+              I. Jarin, Yu Duan, R. Trimananda, <strong>H. Cui</strong>, S. Elmalaki, A. Markopoulou
+              "BehaVR: User Identification Based on VR Sensor Data,"
+              <em>under submission,</em> 2024.
+            </li>
+            <li>
+              U. Iqbal, P. N. Bahrami, R. Trimananda, <strong>H. Cui</strong>, A. Gamero-Garrido, D. Dubois, D. Choffnes, A. Markopoulou, F. Roesner, Z. Shafiq,
+              "Tracking, Profiling, and Ad Targeting in the Alexa Echo Smart Speaker Ecosystem,"
+              in <em>ACM Internet Measurement Conference 2023,</em> Oct. 2023.
+              <span class="pub-award">
+                <a href="https://properdata.eng.uci.edu/2023/10/24/smart-speaker-work-awarded-best-paper-at-imc-23/">Best Paper Award</a>
+              </span>
+            </li>
+            <li>
               <strong>H. Cui</strong>, R. Trimananda, A. Markopoulou, S. Jordan,
               "PoliGraph: Automated Privacy Policy Analysis using Knowledge Graphs,"
-              <em>under submission,</em> Oct. 2022.
+              in <em>Proc. of USENIX Security Symposium 2023,</em> Aug. 2023.
               <span class="pub-link-list">
-                <a href="https://arxiv.org/abs/2210.06746">arXiv preprint</a>
+                <a href="https://www.usenix.org/conference/usenixsecurity23/presentation/cui">Paper & Presentation</a> |
+                <a href="https://arxiv.org/abs/2210.06746">Extended paper</a> |
+                <a href="https://github.com/UCI-Networking-Group/PoliGraph">Code</a>
               </span>
             </li>
             <li>
@@ -108,7 +128,7 @@
               in <em>Proc. of USENIX Security Symposium 2022,</em> Aug. 2022.
               <span class="pub-link-list">
                 <a href="https://athinagroup.eng.uci.edu/projects/ovrseen/">Website</a> |
-                <a href="https://www.usenix.org/conference/usenixsecurity22/presentation/trimananda">Paper</a> |
+                <a href="https://www.usenix.org/conference/usenixsecurity22/presentation/trimananda">Paper & Presentation</a> |
                 <a href="https://arxiv.org/abs/2106.05407">Extended paper</a>
               </span>
             </li>
